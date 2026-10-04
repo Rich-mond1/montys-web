@@ -37,7 +37,7 @@ window.MONTYS_NUTRITION.recipes = {
                    drained:{pickleJuiceCO:0.3}},
   pickledCucumber:{n:"Pickled cucumber", items:[["cucumber",1000],["pickleJuiceDill",100]], yield:1100},  // 100 ml juice per 1 kg cucumber
   bechamel:       {n:"Béchamel", items:[["wholeMilk",10000],["flour",450],["butter",570],["paprika",12],["salt",80],["mustard",80],["nutmeg",4],["msg",10]], yield:11206},
-  macCheese:      {n:"Mac & cheese", items:[["macaroni",1700],["mixCheese",60],["bechamel",1650],["parmesan",40]], yield:3300},
+  macCheese:      {n:"Mac & cheese", items:[["macaroni",1700],["parmesan",60],["bechamel",1650],["parmesan",40]], yield:3300},
   sandoSalad:     {n:"Japanese sando salad", items:[["whiteCabbage",1000],["sandoDressing",300]], yield:1300},
 
   // ---------------- PROTEINS & MARINADES ----------------

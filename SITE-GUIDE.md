@@ -7,8 +7,8 @@ Static site (HTML/CSS/JS). No Webflow, no build step. Upload the whole `site` fo
 | Page | File |
 |---|---|
 | Home | `index.html` |
-| Privacy policy | `utility-pages/privacy-policy/index.html` |
-| Terms & conditions | `utility-pages/terms-conditions/index.html` |
+| Legal (company info, privacy & cookies, terms) | `utility-pages/legal/index.html` |
+| Old privacy/terms URLs | Redirect to the Legal page (keep them so old links still work) |
 
 ## External links (search and replace the URL in all three pages)
 
@@ -29,7 +29,7 @@ Static site (HTML/CSS/JS). No Webflow, no build step. Upload the whole `site` fo
 | Photos | Convert to WebP first (see *Images* below), put it in `assets/`, then change the `src` (and `srcset`) of the `<img>` |
 | Menu cards (What's on the Menu) | `index.html`, inside the tab panes `data-w-tab="Tab 3"` (bowls), `"Tab 2"` (sandwiches), `"Tab 4"` (boxes). Order = order in the file |
 | Nutrition calculator | `nutrition/` folder, see `nutrition/README.md` |
-| Opening hours, address | Footer of `index.html` + terms page |
+| Opening hours, address | Footer of `index.html` + Legal page (Company information) + structured data |
 | Custom styles (type system, Why Monty's grid, sandwich section, review cards) | `<style id="montys-custom">` in the `<head>` of `index.html` |
 | Cookie banner / Google Analytics ID | `js/montys-consent.js` (`GA_ID`) |
 | Catering request form | Script "Catering request form" at the end of `index.html`. It opens the visitor's email app pre-filled to info@. Replace with a form service (e.g. Formspree) when hosting is final |

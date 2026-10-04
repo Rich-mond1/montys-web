@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.montyslondon.com/</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.montyslondon.com/utility-pages/terms-conditions/</loc><lastmod>2026-10-03</lastmod><priority>0.3</priority></url>
-  <url><loc>https://www.montyslondon.com/utility-pages/privacy-policy/</loc><lastmod>2026-10-03</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.montyslondon.com/</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.montyslondon.com/utility-pages/legal/</loc><lastmod>2026-10-04</lastmod><priority>0.3</priority></url>
 </urlset>

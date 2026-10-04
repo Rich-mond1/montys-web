@@ -41,10 +41,10 @@ window.MONTYS_NUTRITION.menu = [
    desc:"Roasted chicken, romaine, parmesan, cherry tomatoes, halved boiled egg, croutons, Caesar dressing",
    items:[["romaine",190],["cookedChicken",130],["egg","1pc"],["cherryTomato",60],["parmesan",20],["croutons",20],["caesar",45]]},
   {id:"chicken-pasta", cat:"bowls", name:"Chicken Pasta",
-   desc:"Grilled chicken, fusilli pasta, spinach, cherry tomatoes, parmesan shaves, edamame, mixed seeds, mediterranean pesto",
+   desc:"Grilled chicken, fusilli pasta, spinach, cherry tomatoes, parmesan, edamame, mixed seeds, mediterranean pesto",
    items:[["fusilli",300],["spinach",30],["cookedChicken",100],["parmesan",20],["edamame",20],["cherryTomato",60],["seeds",10],["pesto",45]]},
   {id:"marinated-tofu", cat:"bowls", veg:true, name:"Marinated Tofu",
-   desc:"Marinated tofu, spinach & quinoa, cucumber, beetroot, avocado, spring onions, shredded carrots, lemon tahini, cashew nuts",
+   desc:"Marinated tofu, spinach & quinoa, cucumber, beetroot, avocado, spring onions, shredded carrots, tahini, cashew nuts",
    items:[["quinoa",130],["spinach",70],["koreanTofu",100],["beetrootDill",35],["springOnion",10],["carrot",35],["avocado","0.5pc"],["pickledCucumber",90],["cashew",15],["tahiniSauce",45]]},
 
   // ---------------- SANDWICHES ----------------
@@ -52,7 +52,7 @@ window.MONTYS_NUTRITION.menu = [
    desc:"Ciabatta, bavette steak, Monty's hot mayo, romaine lettuce, gherkin, cheddar, chimichurri",
    items:[["ciabatta","1pc"],["montysMayo",15],["lettuce",40],["chimichurri",25],["gherkin",15],["cookedBeef",130],["cheddar",30]]},
   {id:"chicken-ciabatta", cat:"sandwiches", name:"Chicken Ciabatta",
-   desc:"Ciabatta, roasted chicken, marinade, romaine lettuce, parmesan cheese, Caesar sauce",
+   desc:"Ciabatta, roasted chicken, marinade, romaine lettuce, parmesan, Caesar sauce",
    items:[["ciabatta","1pc"],["chickenMarinade",15],["cookedChicken",130],["lettuce",40],["caesar",25],["parmesan",15]]},
 
   // ---------------- PROTEIN BOXES ----------------
@@ -66,7 +66,7 @@ window.MONTYS_NUTRITION.menu = [
    desc:"Miso glazed salmon, kale, sweet potatoes, mac & cheese, miso dressing",
    items:[["macCheese",240],["kale",65],["sweetPotatoes",100],["salmonRaw","1pc"],["misoSauce",10,"Miso glaze (on salmon)"],["misoSauce",35,"Miso dressing"]]},
   {id:"korean-tofu-box", cat:"boxes", veg:true, name:"Korean Tofu",
-   desc:"Korean tofu, spinach, quinoa, sweet potatoes and tahini dressing",
+   desc:"Korean tofu, spinach, quinoa, sweet potatoes and tahini",
    items:[["quinoa",130],["spinach",30],["sweetPotatoes",100],["koreanTofu",100],["tahiniSauce",35]]}
 ];
 

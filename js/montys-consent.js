@@ -14,8 +14,8 @@
     gtag("js", new Date()); gtag("config", GA_ID, { anonymize_ip: true });
   }
   function banner() {
-    var root = document.querySelector('a[href*="privacy-policy"]');
-    var policy = root ? root.getAttribute("href") : "utility-pages/privacy-policy/";
+    var root = document.querySelector('a[href*="utility-pages/legal"]');
+    var policy = root ? root.getAttribute("href").split("#")[0] : "utility-pages/legal/";
     var b = document.createElement("div");
     b.className = "montys-consent"; b.setAttribute("role", "dialog"); b.setAttribute("aria-label", "Cookie preferences");
     b.innerHTML = '<p>We use optional analytics cookies to understand how people use our website. ' +
