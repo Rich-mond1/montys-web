@@ -176,3 +176,5 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 .mp-foot-legal a{font-size:14px;font-weight:400;text-decoration:underline;white-space:nowrap}
 .footer-section:not(:has(.our-locations-block)){padding-top:0!important}.footer-section:not(:has(.our-locations-block)) .footer_bottom-wrapper.mp-foot{margin-top:0!important;border-top:0;padding:40px 0 32px!important}
 @media (max-width:767px){.mp-foot-logo img{height:44px}.mp-foot-links{gap:10px 20px}}
+/* v32: ciabatta photos are portrait with the sandwich in the top half: crop to the sandwich band so nothing is cut and there is no empty white below */
+.collection-list .collection-item img.menu-card-image[alt*="Ciabatta"]{aspect-ratio:4/3!important;object-position:50% 0%!important}
