@@ -63,3 +63,42 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 @media (min-width:992px){.nav-menu .nav-button-wrapper.is-mobile-copy{display:none!important}}
 @media (min-width:992px){.slider-section .w-slider-mask{max-width:930px!important;margin-left:auto!important;margin-right:auto!important}}
 .gallery-title-block{justify-content:center!important;height:100%}
+
+/* ===== TYPE & SPACING SCALE (single source of truth) ===== */
+:root{--t-display:clamp(36px,3.9vw,56px);--t-section:clamp(30px,2.8vw,40px);--t-card:clamp(24px,2vw,28px);--t-dish:20px;--r-card:24px;--space-section:64px}
+@media (max-width:767px){:root{--t-dish:18px;--space-section:44px}}
+/* display */
+.heading-style-01,.heading-style-01-copy,.hero-section .heading-style-01,.mp-h1{font-size:var(--t-display)!important;line-height:1.02!important}
+/* section titles */
+.our-menu-section .heading-style-02,.montys-sando-title,.montys-why-title,.slider-section .heading-style-02-copy,.locations-title .heading-style-04,.heading-style-02{font-size:var(--t-section)!important;line-height:1.05!important}
+.montys-why-title{margin:0!important}
+/* card titles */
+.benefit-section .benefit-card .heading-style-03{font-size:var(--t-card)!important;line-height:1.05!important}
+.heading-style-05{font-size:var(--t-dish)!important}
+/* shape + rhythm */
+.our-menu-card-block,.benefit-section .benefit-card,.montys-sando-inner,.slider-section,.our-locations-block,.slider-section .slider-card{border-radius:var(--r-card)!important}
+.montys-sando{padding:var(--space-section) 16px!important}
+.benefit-section{padding:var(--space-section) 16px!important}
+.our-menu-section{padding-top:var(--space-section)!important;padding-bottom:var(--space-section)!important}
+.slider-section{padding-top:48px!important;padding-bottom:48px!important}
+.slider-section,.montys-sando-inner{margin-top:0}
+.footer-section{padding-top:var(--space-section)!important}
+.montys-contact-line{padding:32px 16px!important}
+/* menu cards: shorter images, 3 per row */
+.collection-list .collection-item .menu-card-image{height:410px!important;object-fit:cover;width:100%}
+.collection-list .collection-item .our-menu-card-block{height:auto!important}
+@media (max-width:567px){.collection-list .collection-item .menu-card-image{height:260px!important}}
+/* gallery: original pinned collage, shorter run */
+.gallery-section.section-gallery.gallery-content{height:220vh!important}
+/* Why Monty's title: Webflow scroll animation must never hide it */
+.benefit-section .benefit-title-wrapper,.benefit-section .benefit-title-wrapper *{opacity:1!important;transform:none!important;visibility:visible!important}
+/* reviews: pages of 3 (text, photo, text | photo, text, photo) */
+.slider-section .w-slide{scroll-snap-align:none}
+@media (min-width:768px){.slider-section .w-slide:nth-child(3n+1){scroll-snap-align:start}.slider-section .w-slider-mask{scroll-snap-type:x mandatory}}
+@media (max-width:767px){.slider-section .w-slide{scroll-snap-align:center}.slider-section .w-slider-mask{scroll-padding:0 10px}}
+.mp-rev-nav{display:flex;justify-content:center;gap:12px;margin-top:6px}
+.mp-rev-nav button{width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:#E63D29;font-size:20px;line-height:1;cursor:pointer}
+.mp-rev-nav button:hover{background:#2A1F1D;color:#fff}
+@media (max-width:767px){.mp-rev-nav{display:none}}
+.benefit-section .benefit-card .benefit-card-top-wrapper .heading-style-03{font-size:var(--t-card)!important}
+@media (max-width:567px){.collection-list .collection-item .menu-card-image{height:320px!important}}
