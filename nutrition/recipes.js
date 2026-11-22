@@ -31,7 +31,7 @@ window.MONTYS_NUTRITION.recipes = {
   veggiesMix:     {n:"Roasted mixed veg", items:[["mushroom",400],["aubergine",400],["courgette",450],["redOnion",400],["pepper",700],["salt",8],["msg",1],["rapeseedOil",70],["herbs",11]], yield:1100},
   pickleJuiceDill:{n:"Pickle juice (dill brine)", items:[["riceVinegar",1000],["water",600],["sugar",180],["salt",35],["dill",20]], yield:1835},
   pickleJuiceCO:  {n:"Pickle juice (cabbage & onion)", items:[["wineVinegar",5000],["sugar",1500],["salt",250],["lemonJuice",500]], yield:7250},
-  pickledCabbage: {n:"Fermented cabbage", items:[["redCabbage",1000],["pickleJuiceCO",250]], yield:850,
+  pickledCabbage: {n:"Pickled cabbage", items:[["redCabbage",1000],["pickleJuiceCO",250]], yield:850,
                    drained:{pickleJuiceCO:0.3}},              // ASSUMPTION: 30% of the brine stays on the veg
   pickledOnions:  {n:"Pickled onions", items:[["redOnion",1000],["pickleJuiceCO",250]], yield:700,
                    drained:{pickleJuiceCO:0.3}},

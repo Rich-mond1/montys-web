@@ -75,7 +75,7 @@ window.MONTYS_NUTRITION.menu = [
    fish plus the dressing portion, so both lines appear. */
 window.MONTYS_NUTRITION.labels = {
   cookedChicken:"Roasted chicken", cookedBeef:"Bavette steak", koreanTofu:"Korean tofu",
-  salmonRaw:"Salmon fillet", pickledCabbage:"Fermented cabbage", sweetPotatoes:"Roasted sweet potatoes",
+  salmonRaw:"Salmon fillet", pickledCabbage:"Pickled cabbage", sweetPotatoes:"Roasted sweet potatoes",
   potatoCarrot:"Roasted potatoes & carrots", veggiesMix:"Roasted mixed veg", beetrootDill:"Beetroot & dill",
   edamame:"Edamame mix", carrot:"Shredded carrot", chickenMarinade:"Chicken marinade juice"
 };
