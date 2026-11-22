@@ -10,6 +10,7 @@ Static site (HTML/CSS/JS). No Webflow, no build step. Upload the whole `site` fo
 | Allergens | `allergens/index.html` (links to the allergen chart) |
 | Nutrition (calculator) | `nutrition/index.html` |
 | Legal (company info, privacy & cookies, terms) | `utility-pages/legal/index.html` |
+| Page not found (404) | `404.html` (GitHub Pages serves it for any missing URL) |
 | Old privacy/terms URLs | Redirect to the Legal page (keep them so old links still work) |
 
 ## External links (search and replace the URL in every page)
@@ -50,6 +51,7 @@ Static site (HTML/CSS/JS). No Webflow, no build step. Upload the whole `site` fo
 
 ## Images and video
 
+- Menu card photos are framed at **5:4** (900x720), the same shape as the card on desktop and mobile, so nothing is cropped. Keep that shape when replacing one.
 - All page images are **WebP** (about 3x smaller than JPG/PNG). Keep `montys-group.jpg` as JPG: it is the image used when the site is shared on WhatsApp/social.
 - To add a photo: max 1600px wide, WebP quality 80. Free options: squoosh.app (drag and drop) or, in a terminal, `cwebp -q 80 photo.jpg -o photo.webp`.
 - No video on the site now (the old hero video was hidden template stock footage that still downloaded 4 MB). If you add one: MP4 H.264, 1280px wide, no audio, under 2 MB (`ffmpeg -i in.mov -vf scale=1280:-2 -an -c:v libx264 -crf 28 -preset slow -movflags +faststart out.mp4`).
