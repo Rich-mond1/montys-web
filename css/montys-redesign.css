@@ -109,5 +109,21 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 @media (max-width:767px){.gallery-section .gallery-item{width:42vw!important;border-radius:14px!important}}
 .gallery-section .gallery-item-middle .gallery-title,.heading-style-02.gallery-title{font-size:clamp(18px,1.7vw,24px)!important}
 /* contacts: map and "Get in touch" together */
-.mp-touch{margin-top:20px;padding-top:18px;border-top:1px solid rgba(42,31,29,.15);font-family:var(--m-body);font-size:19px;color:var(--m-ink)}
-.mp-touch a{color:#E63D29;font-weight:700;text-decoration:underline;text-underline-offset:4px;margin-left:6px;white-space:nowrap}
+
+/* ===== round 7: centred layout at every width, clear Get in touch ===== */
+.benefit-section .container{padding-left:0!important;padding-right:0!important;max-width:1240px!important;margin:0 auto!important;width:100%}
+.benefit-section .benefit-card-wrapper{margin-left:auto!important;margin-right:auto!important;width:100%!important;box-sizing:border-box}
+.page-wrapper .benefit-section .benefit-content-block .benefit-card-wrapper{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+@media (min-width:1200px){.page-wrapper .benefit-section .benefit-content-block .benefit-card-wrapper{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media (max-width:567px){.page-wrapper .benefit-section .benefit-content-block .benefit-card-wrapper{grid-template-columns:1fr!important}}
+.benefit-section .benefit-card{overflow-wrap:anywhere}
+.slider-section{max-width:1240px;margin-left:auto!important;margin-right:auto!important}
+@media (max-width:1272px){.slider-section{margin-left:16px!important;margin-right:16px!important;max-width:none}}
+.footer-main-block{max-width:1240px;margin-left:auto;margin-right:auto}
+.our-locations-block{align-items:center!important}
+.mp-touch{margin-top:22px;padding-top:20px;border-top:1px solid rgba(42,31,29,.15);display:flex;flex-direction:column;align-items:flex-start;gap:12px;font-family:var(--m-body)}
+.mp-touch p{margin:0;font-size:19px;color:var(--m-ink)}
+.mp-touch-btn{display:inline-block;background:#E63D29;color:#fff!important;font-weight:700;font-size:18px;padding:14px 32px;border-radius:999px;text-decoration:none!important}
+.mp-touch-btn:hover{background:#2A1F1D}
+@media (max-width:991px){.mp-touch{align-items:center;text-align:center}}
+.slider-section{margin-bottom:40px!important}
