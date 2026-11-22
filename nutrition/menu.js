@@ -43,8 +43,8 @@ window.MONTYS_NUTRITION.menu = [
   {id:"chicken-pasta", cat:"bowls", name:"Chicken Pasta",
    desc:"Grilled chicken, fusilli pasta, spinach, cherry tomatoes, parmesan, edamame, mixed seeds, mediterranean pesto",
    items:[["fusilli",300],["spinach",30],["cookedChicken",100],["parmesan",20],["edamame",20],["cherryTomato",60],["seeds",10],["pesto",45]]},
-  {id:"marinated-tofu", cat:"bowls", veg:true, name:"Marinated Tofu",
-   desc:"Marinated tofu, spinach & quinoa, cucumber, beetroot, avocado, spring onions, shredded carrots, tahini, cashew nuts",
+  {id:"marinated-tofu", cat:"bowls", veg:true, name:"Korean Tofu",
+   desc:"Korean tofu, spinach & quinoa, cucumber, beetroot, avocado, spring onions, shredded carrots, tahini, cashew nuts",
    items:[["quinoa",130],["spinach",70],["koreanTofu",100],["beetrootDill",35],["springOnion",10],["carrot",35],["avocado","0.5pc"],["pickledCucumber",90],["cashew",15],["tahiniSauce",45]]},
 
   // ---------------- SANDWICHES ----------------
@@ -74,7 +74,7 @@ window.MONTYS_NUTRITION.menu = [
    the recipe/ingredient name). The miso salmon has 10 g of glaze on the
    fish plus the dressing portion, so both lines appear. */
 window.MONTYS_NUTRITION.labels = {
-  cookedChicken:"Smoky paprika chicken", cookedBeef:"Bavette steak", koreanTofu:"Korean tofu",
+  cookedChicken:"Roasted chicken", cookedBeef:"Bavette steak", koreanTofu:"Korean tofu",
   salmonRaw:"Salmon fillet", pickledCabbage:"Fermented cabbage", sweetPotatoes:"Roasted sweet potatoes",
   potatoCarrot:"Roasted potatoes & carrots", veggiesMix:"Roasted mixed veg", beetrootDill:"Beetroot & dill",
   edamame:"Edamame mix", carrot:"Shredded carrot", chickenMarinade:"Chicken marinade juice"

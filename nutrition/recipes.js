@@ -44,7 +44,7 @@ window.MONTYS_NUTRITION.recipes = {
   chickenMarinade:{n:"Chicken marinade", items:[["kimcheeSauce",2100],["water",2060],["sesameOil",330],["pomaceOil",205],["soySauce",250],["paprika",40],["salt",35],["msg",8],["sugar",25],["xanthan",10]], yield:5000},
   marinatedChicken:{n:"Brined chicken", items:[["chickenRaw",10000],["bicarb",100],["water",25000]], yield:10000,
                    drained:{bicarb:0, water:0}},              // soak water is poured away
-  cookedChicken:  {n:"Smoky paprika chicken", items:[["marinatedChicken",10000],["chickenMarinade",1500]], yield:6000},
+  cookedChicken:  {n:"Roasted chicken", items:[["marinatedChicken",10000],["chickenMarinade",1500]], yield:6000},
   beefMarinade:   {n:"Beef marinade", items:[["blackBeanPaste",2210],["cumin",90],["soySauce",1400],["brownSugar",1100],["paprika",120],["rapeseedOil",1700],["msg",80],["garlic",600],["water",700],["riceVinegar",100]], yield:8000},
   marinatedBeef:  {n:"Brined beef", items:[["beefRaw",10000],["bicarb",150],["water",25000]], yield:10000,
                    drained:{bicarb:0, water:0}},

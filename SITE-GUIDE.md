@@ -7,17 +7,19 @@ Static site (HTML/CSS/JS). No Webflow, no build step. Upload the whole `site` fo
 | Page | File |
 |---|---|
 | Home | `index.html` |
+| Allergens | `allergens/index.html` (links to the allergen chart) |
+| Nutrition (calculator) | `nutrition/index.html` |
 | Legal (company info, privacy & cookies, terms) | `utility-pages/legal/index.html` |
 | Old privacy/terms URLs | Redirect to the Legal page (keep them so old links still work) |
 
-## External links (search and replace the URL in all three pages)
+## External links (search and replace the URL in every page)
 
 | What | URL | Where it appears |
 |---|---|---|
 | Click & Collect (Square Online) | `https://421737966777399074.square.site/` | Header button, sandwich section. **The Square site is not published yet.** |
-| Delivery (Deliveroo) | `https://deliveroo.co.uk/menu/london/bankside/montys-southwark-street` | Hero button |
-| Catering (Slerp) | `https://montys.slerp.com/order/browse` | Header, hero, gallery, catering section, footer, mobile menu |
-| Allergen chart | `https://mopsmanual.github.io/Montys-allergen/` | Header menu "Allergens", footer |
+| Delivery (Deliveroo) | `https://deliveroo.co.uk/menu/london/bankside/montys-southwark-street` | Header, mobile menu |
+| Catering (Slerp) | `https://montys.slerp.com/order/browse` | Header, mobile menu |
+| Allergen chart | `https://mopsmanual.github.io/Montys-allergen/` | Allergens page button |
 | Instagram | `https://www.instagram.com/montysldn` | Footer |
 | Email | `mailto:info@montyslondon.com` | Everywhere an email is shown |
 
@@ -32,7 +34,6 @@ Static site (HTML/CSS/JS). No Webflow, no build step. Upload the whole `site` fo
 | Opening hours, address | Footer of `index.html` + Legal page (Company information) + structured data |
 | Custom styles (type system, Why Monty's grid, sandwich section, review cards) | `<style id="montys-custom">` in the `<head>` of `index.html` |
 | Cookie banner / Google Analytics ID | `js/montys-consent.js` (`GA_ID`) |
-| Catering request form | Script "Catering request form" at the end of `index.html`. It opens the visitor's email app pre-filled to info@. Replace with a form service (e.g. Formspree) when hosting is final |
 
 ## Type system
 
