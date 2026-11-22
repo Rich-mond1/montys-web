@@ -152,3 +152,10 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 /* v13: every menu tab uses the same 3-column card width (Sandwiches was shrinking to content) */
 @media (min-width:768px){.collection-list .collection-item{flex:0 0 calc((100% - 40px)/3 - 16px)!important;width:calc((100% - 40px)/3 - 16px)!important}}
 .collection-list-wrapper,.collection-list-wrapper .collection-list{width:100%!important}
+/* v17: menu card text area grows with its text; uniform inside each tab. Short tabs (Sandwiches, Protein Boxes) get a lower box than the 6-dish Salad Bowls tab */
+.collection-list .collection-item .menu-content{height:auto!important;padding:16px 20px!important;box-sizing:border-box;align-items:flex-start!important;min-height:128px}
+.w-tab-pane:has(.collection-item:nth-child(5)) .collection-item .menu-content{min-height:152px}
+@media (max-width:1199px){.collection-list .collection-item .menu-content{min-height:136px}.w-tab-pane:has(.collection-item:nth-child(5)) .collection-item .menu-content{min-height:180px}}
+@media (max-width:991px){.collection-list .collection-item .menu-title h2{font-size:18px!important;line-height:1.2!important}.collection-list .collection-item .menu-content{min-height:184px}.w-tab-pane:has(.collection-item:nth-child(5)) .collection-item .menu-content{min-height:240px}}
+@media (max-width:767px){.collection-list .collection-item .menu-content{min-height:184px}.w-tab-pane:has(.collection-item:nth-child(5)) .collection-item .menu-content{min-height:240px}}
+@media (max-width:567px){.collection-list .collection-item .menu-content,.w-tab-pane:has(.collection-item:nth-child(5)) .collection-item .menu-content{min-height:100px}}
