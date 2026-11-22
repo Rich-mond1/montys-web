@@ -52,7 +52,7 @@ window.MONTYS_NUTRITION.menu = [
    desc:"Ciabatta, bavette steak, Monty's hot mayo, romaine lettuce, gherkin, cheddar, chimichurri",
    items:[["ciabatta","1pc"],["montysMayo",15],["lettuce",40],["chimichurri",25],["gherkin",15],["cookedBeef",130],["cheddar",30]]},
   {id:"chicken-ciabatta", cat:"sandwiches", name:"Chicken Ciabatta",
-   desc:"Ciabatta, roasted chicken, marinade, romaine lettuce, parmesan, Caesar dressing",
+   desc:"Ciabatta, roasted chicken, romaine lettuce, parmesan, Caesar dressing",
    items:[["ciabatta","1pc"],["chickenMarinade",15],["cookedChicken",130],["lettuce",40],["caesar",25],["parmesan",15]]},
 
   // ---------------- PROTEIN BOXES ----------------
