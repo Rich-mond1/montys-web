@@ -149,3 +149,6 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 .gallery-section .gallery-item-middle .gallery-title-block{width:100%!important;max-width:none!important}
 .gallery-section .gallery-item-middle .gallery-title{width:100%!important;max-width:none!important;padding:0 8px}
 .gallery-section .gallery-item-middle .gallery-title{white-space:nowrap!important;width:auto!important;flex:none!important;align-self:center!important}
+/* v13: every menu tab uses the same 3-column card width (Sandwiches was shrinking to content) */
+@media (min-width:768px){.collection-list .collection-item{flex:0 0 calc((100% - 40px)/3 - 16px)!important;width:calc((100% - 40px)/3 - 16px)!important}}
+.collection-list-wrapper,.collection-list-wrapper .collection-list{width:100%!important}
