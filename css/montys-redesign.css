@@ -65,7 +65,7 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 .gallery-title-block{justify-content:center!important;height:100%}
 
 /* ===== TYPE & SPACING SCALE (single source of truth) ===== */
-:root{--t-display:clamp(36px,3.9vw,56px);--t-section:clamp(30px,2.8vw,40px);--t-card:clamp(24px,2vw,28px);--t-dish:20px;--r-card:24px;--space-section:64px}
+:root{--t-display:clamp(36px,3.9vw,56px);--t-section:clamp(34px,3.4vw,48px);--t-card:clamp(24px,2vw,28px);--t-dish:20px;--r-card:24px;--space-section:64px}
 @media (max-width:767px){:root{--t-dish:18px;--space-section:44px}}
 /* display */
 .heading-style-01,.heading-style-01-copy,.hero-section .heading-style-01,.mp-h1{font-size:var(--t-display)!important;line-height:1.02!important}
@@ -89,7 +89,7 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 .collection-list .collection-item .our-menu-card-block{height:auto!important}
 @media (max-width:567px){.collection-list .collection-item .menu-card-image{height:260px!important}}
 /* gallery: original pinned collage, shorter run */
-.gallery-section.section-gallery.gallery-content{height:220vh!important}
+.gallery-section.section-gallery.gallery-content{height:180vh!important}
 /* Why Monty's title: Webflow scroll animation must never hide it */
 .benefit-section .benefit-title-wrapper,.benefit-section .benefit-title-wrapper *{opacity:1!important;transform:none!important;visibility:visible!important}
 /* reviews: pages of 3 (text, photo, text | photo, text, photo) */
@@ -102,3 +102,12 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 @media (max-width:767px){.mp-rev-nav{display:none}}
 .benefit-section .benefit-card .benefit-card-top-wrapper .heading-style-03{font-size:var(--t-card)!important}
 @media (max-width:567px){.collection-list .collection-item .menu-card-image{height:320px!important}}
+
+/* gallery collage: smaller tiles */
+.gallery-section .gallery-item{width:270px!important;border-radius:20px!important}
+@media (max-width:991px){.gallery-section .gallery-item{width:30vw!important}}
+@media (max-width:767px){.gallery-section .gallery-item{width:42vw!important;border-radius:14px!important}}
+.gallery-section .gallery-item-middle .gallery-title,.heading-style-02.gallery-title{font-size:clamp(18px,1.7vw,24px)!important}
+/* contacts: map and "Get in touch" together */
+.mp-touch{margin-top:20px;padding-top:18px;border-top:1px solid rgba(42,31,29,.15);font-family:var(--m-body);font-size:19px;color:var(--m-ink)}
+.mp-touch a{color:#E63D29;font-weight:700;text-decoration:underline;text-underline-offset:4px;margin-left:6px;white-space:nowrap}
