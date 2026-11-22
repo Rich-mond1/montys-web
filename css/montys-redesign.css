@@ -11,36 +11,22 @@
 .montys-sando-inner{padding:44px!important}
 .montys-sando-title{font-size:clamp(34px,4vw,56px)!important}
 .our-menu-section{min-height:0!important}
-.heading-style-02.gallery-title{font-size:clamp(34px,3.6vw,52px)!important;line-height:1.1!important}
 .montys-why-title{color:#E63D29!important;text-transform:uppercase;line-height:1!important;font-size:clamp(36px,4.4vw,64px)!important;margin:0!important}
 .benefit-section{padding:56px 16px!important}
 .benefit-section .benefit-card .heading-style-03{font-size:clamp(26px,2.1vw,34px)!important}
-.gallery-section.section-gallery.gallery-content{height:200vh!important}
-.slider-card.content{min-height:480px!important}
 .montys-contact-line{padding:36px 16px;text-align:center;background:#F3EFE2}
 .montys-contact-line p{margin:0;font-family:var(--m-body);font-size:19px;color:var(--m-ink)}
 .montys-contact-line a{color:#E63D29;font-weight:700;text-decoration:underline;text-underline-offset:4px;margin-left:6px}
 @media (max-width:991px){.navber .nav-right-wrapper>.nav-button-wrapper:not(.is-mobile-copy){display:none!important}}
-@media (max-width:991px){.navber .nav-button-wrapper .primary-button{width:100%}.slider-card.content{min-height:420px!important}}
-@media (max-width:767px){.hero-content-block{padding-top:48px!important;padding-bottom:48px!important}.montys-sando{padding:40px 16px!important}.montys-sando-inner{padding:32px 22px!important}.slider-card.content{min-height:340px!important}.montys-contact-line p{font-size:17px}}
 
 /* ===== round 2: cream background everywhere, calmer reviews/map, no sticky/hidden scroll effects ===== */
 :root{--m-cream:#F3F3E4}
-html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.gallery-grid-wrapper,.gallery-section,.mp-section,.flavor-story-section{background-color:var(--m-cream)!important}
 .montys-contact-line{background:transparent!important}
 .benefit-section .benefit-card{background:#fff!important}
 .montys-why-title{font-size:clamp(34px,3.6vw,52px)!important}
 /* gallery: normal flow, no pinned scroll, nothing hidden */
-.gallery-section.section-gallery.gallery-content{height:auto!important;padding:24px 0!important}
-.gallery-section .gallery-grid-wrapper{position:static!important;height:auto!important;overflow:hidden!important;display:block!important;padding:0 0 8px}
 /* reviews: smaller cards and title */
-.slider-section{padding-top:56px!important;padding-bottom:56px!important}
-.slider-section .heading-style-02-copy{font-size:clamp(30px,3vw,42px)!important}
-.slider-card,.slider-card.content,.slider-card.client-image{height:auto!important;min-height:0!important;max-width:400px!important}
-.slider-card.content{padding:28px!important;min-height:320px!important}
-.slider-card.client-image{height:380px!important}
 .client-feedback .heading-style-04{font-size:clamp(16px,1.2vw,18px)!important;line-height:1.45!important}
-@media (max-width:767px){.slider-card.content{min-height:300px!important}.slider-card.client-image{height:340px!important}.slider-section{padding-top:40px!important;padding-bottom:40px!important}}
 /* contacts + map: compact */
 .footer-section{padding-top:48px!important}
 .our-locations-block{padding:28px 32px!important;gap:32px!important;align-items:center!important;background:#fff!important}
@@ -49,38 +35,31 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 .locations-title .heading-style-04{font-size:clamp(28px,2.6vw,38px)!important}
 @media (max-width:991px){.our-locations-block{padding:24px 18px!important}}
 /* gallery: tidy responsive grid instead of rotated, scroll-driven collage */
-.gallery-section .gallery-grid-wrapper{padding:0 16px!important;max-width:1240px;margin:0 auto}
-.gallery-section .gallery-item-block{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;width:100%!important;height:auto!important;transform:none!important;position:static!important;padding:0!important}
-.gallery-section .gallery-item-row{display:contents!important;transform:none!important}
-.gallery-section .gallery-item,.gallery-section .gallery-item .gallery-item{transform:none!important;position:relative!important;width:auto!important;height:auto!important;aspect-ratio:1/1;border-radius:16px;overflow:hidden;margin:0!important;opacity:1!important}
-.gallery-section .gallery-item-image{width:100%!important;height:100%!important;object-fit:cover;transform:none!important;position:static!important;border-radius:0!important}
-.gallery-section .gallery-item .gallery-item{display:none!important}
-.gallery-section .gallery-item-middle{display:flex!important;align-items:center;justify-content:center;background:#E63D29;aspect-ratio:1/1}
-.gallery-section .gallery-title-block{padding:12px;text-align:center}
-.gallery-section .gallery-side-border{display:none!important}
 .our-location-list-item,.our-locations-block .faq-wrap{background:transparent!important}
-@media (max-width:991px){.gallery-section .gallery-item-block{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}}
 /* reviews: one whole card at a time, never cropped */
-.client-slider .mask{overflow:hidden!important;max-width:424px!important;margin-left:auto!important;margin-right:auto!important}
-.client-slider .testimonial-slider{margin-right:0!important;padding:0 12px}
-.client-slider .slider-card{margin:0 auto}
-.gallery-section .gallery-item-row>.gallery-item:last-child:not(.gallery-item-middle){display:none!important}
-.gallery-section .gallery-item-block{grid-template-columns:repeat(6,minmax(0,1fr))}
-@media (max-width:991px){.gallery-section .gallery-item-block{grid-template-columns:repeat(3,minmax(0,1fr))}}
-.slider-section .slider-content{max-width:480px;margin-left:auto;margin-right:auto}
-.slider-section .slider-content{max-width:none!important}
-.slider-section .slider-title{align-items:center!important;max-width:none!important;text-align:center}
-.slider-section .slider-item-wrp{max-width:560px;margin-left:auto;margin-right:auto;position:relative}
-.slider-section .client-slider{position:relative}
-.slider-section .slider-arrow,.slider-section .slider-arrow.left{top:50%!important;bottom:auto!important;margin-top:-24px;display:flex!important}
-.slider-section .slider-arrow.left{left:-64px!important;right:auto!important}
-.slider-section .slider-arrow{right:-64px!important;left:auto!important}
-@media (max-width:767px){.slider-section .slider-arrow,.slider-section .slider-arrow.left{display:none!important}}
-.gallery-section .gallery-item-middle .gallery-title,.heading-style-02.gallery-title{font-size:clamp(20px,1.9vw,28px)!important;line-height:1.1!important}
-.gallery-section .gallery-item-row:last-child>.gallery-item:nth-last-child(2){display:none!important}
 @media (max-width:567px){.collection-list .collection-item .menu-card-image{height:300px!important;object-fit:cover}.collection-list .collection-item .our-menu-card-block{height:auto!important}}
 /* mobile menu: Catering and Delivery stacked, never overlapping */
 .nav-menu .nav-button-wrapper.is-mobile-copy{display:flex!important;flex-direction:column!important;align-items:flex-end!important;gap:12px!important;height:auto!important;margin-top:16px}
 .nav-menu .nav-button-wrapper.is-mobile-copy .primary-button{position:static!important;margin:0!important;height:44px!important}
 @media (max-width:767px){.navber .nav-right-wrapper{gap:10px!important;flex:0 0 auto}.navber .catering-button.border-white{padding-left:14px!important;padding-right:14px!important}.navber .nav-logo{height:26px!important;width:auto}.navber .nav-link-block{padding-left:14px!important;padding-right:14px!important}}
 @media (max-width:767px){.navber .nav-left-wrapper{width:auto!important;flex:0 1 auto}.navber .nav-logo{width:104px!important;height:auto!important}.navber .catering-button .button-text{font-size:15px!important}.navber .nav-right-wrapper{margin-left:auto}.navber .hamburger{width:34px!important;padding:2px!important}}
+
+html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.gallery-grid-wrapper,.gallery-section,.mp-section{background-color:var(--m-cream)!important}
+/* reviews: compact horizontal scroll, several small cards visible */
+.slider-section{padding-top:40px!important;padding-bottom:40px!important}
+.slider-section .heading-style-02-copy{font-size:clamp(28px,2.6vw,38px)!important}
+.slider-section .slider-title{align-items:center!important;max-width:none!important;text-align:center}
+.slider-section .slider-item-wrp{margin-top:24px!important;max-width:none!important}
+.slider-section .client-slider{height:auto!important}
+.slider-section .w-slider-mask{display:flex!important;gap:14px;overflow-x:auto!important;overflow-y:hidden;width:100%!important;max-width:none!important;height:auto!important;scroll-snap-type:x mandatory;padding:4px 2px 14px;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:#fff #b8301f}
+.slider-section .w-slide{position:relative!important;display:block!important;flex:0 0 300px;width:300px!important;left:auto!important;top:auto!important;transform:none!important;opacity:1!important;margin:0!important;scroll-snap-align:start;white-space:normal;height:auto!important}
+.slider-section .testimonial-slider{margin-right:0!important;padding:0!important}
+.slider-section .slider-card,.slider-section .slider-card.content,.slider-section .slider-card.client-image{width:300px!important;max-width:300px!important;height:300px!important;min-height:0!important;padding:22px!important;margin:0!important;overflow:hidden}
+.slider-section .slider-card.client-image{padding:0!important}
+.slider-section .client-feedback .heading-style-04,.slider-section .slider-card.content .heading-style-04{font-size:15px!important;line-height:1.4!important}
+.slider-section .slider-arrow,.slider-section .w-slider-nav,.slider-section .w-round{display:none!important}
+.slider-section .container{max-width:1240px}
+/* header: the extra Catering/Delivery copy only belongs in the hamburger menu */
+@media (min-width:992px){.nav-menu .nav-button-wrapper.is-mobile-copy{display:none!important}}
+@media (min-width:992px){.slider-section .w-slider-mask{max-width:930px!important;margin-left:auto!important;margin-right:auto!important}}
+.gallery-title-block{justify-content:center!important;height:100%}
