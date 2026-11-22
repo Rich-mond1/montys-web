@@ -89,7 +89,7 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 .collection-list .collection-item .our-menu-card-block{height:auto!important}
 @media (max-width:567px){.collection-list .collection-item .menu-card-image{height:260px!important}}
 /* gallery: original pinned collage, shorter run */
-.gallery-section.section-gallery.gallery-content{height:180vh!important}
+.gallery-section.section-gallery.gallery-content{height:260vh!important;padding-top:0!important;padding-bottom:0!important}
 /* Why Monty's title: Webflow scroll animation must never hide it */
 .benefit-section .benefit-title-wrapper,.benefit-section .benefit-title-wrapper *{opacity:1!important;transform:none!important;visibility:visible!important}
 /* reviews: pages of 3 (text, photo, text | photo, text, photo) */
@@ -127,3 +127,17 @@ html,body,.body,.page-wrapper,.our-menu-section,.benefit-section,.montys-sando,.
 .mp-touch-btn:hover{background:#2A1F1D}
 @media (max-width:991px){.mp-touch{align-items:center;text-align:center}}
 .slider-section{margin-bottom:40px!important}
+
+/* ===== round 8: same side edge for every block, tighter vertical gaps, slower gallery ===== */
+.hero-section .container{max-width:1272px!important;margin-left:auto!important;margin-right:auto!important;padding-left:16px!important;padding-right:16px!important}
+.hero-content-block{width:100%!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
+:root{--space-section:48px}
+@media (max-width:767px){:root{--space-section:32px}}
+.benefit-section{padding-top:var(--space-section)!important;padding-bottom:24px!important}
+.benefit-section .benefit-content-block{gap:24px!important}
+.our-menu-section{padding-bottom:var(--space-section)!important}
+.montys-sando{padding-top:0!important;padding-bottom:var(--space-section)!important}
+.slider-section{margin-top:var(--space-section)!important;margin-bottom:var(--space-section)!important}
+.gallery-section.section-gallery.gallery-content{margin-top:0!important}
+@media (max-width:767px){.gallery-section.section-gallery.gallery-content{height:240vh!important}}
+.footer-section{padding-top:var(--space-section)!important}
