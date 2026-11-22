@@ -35,7 +35,7 @@ window.MONTYS_NUTRITION.menu = [
    desc:"Bavette steak, spinach & bulgur, pickled onions, edamame mix, chimichurri, roasted potatoes and carrots, crispy onions",
    items:[["bulgur",130],["spinach",70],["cookedBeef",130],["potatoCarrot",100],["edamame",20],["pickledOnions",30],["crispyOnions",10],["chimichurri",45]]},
   {id:"miso-salmon", cat:"bowls", name:"Miso Salmon",
-   desc:"Miso-glazed salmon, kale & quinoa, fermented cabbage, shredded carrots, miso dressing, roasted sweet potatoes, mixed seeds",
+   desc:"Miso-glazed salmon, kale & quinoa, pickled cabbage, shredded carrots, miso dressing, roasted sweet potatoes, mixed seeds",
    items:[["quinoa",130],["kale",130],["pickledCabbage",75],["carrot",35],["sweetPotatoes",100],["salmonRaw","1pc"],["misoSauce",10,"Miso glaze (on salmon)"],["seeds",10],["misoSauce",45,"Miso dressing"]]},
   {id:"chicken-caesar", cat:"bowls", name:"Chicken Caesar",
    desc:"Roasted chicken, romaine, parmesan, cherry tomatoes, halved boiled egg, croutons, Caesar dressing",
@@ -75,7 +75,7 @@ window.MONTYS_NUTRITION.menu = [
    fish plus the dressing portion, so both lines appear. */
 window.MONTYS_NUTRITION.labels = {
   cookedChicken:"Roasted chicken", cookedBeef:"Bavette steak", koreanTofu:"Korean tofu",
-  salmonRaw:"Salmon fillet", pickledCabbage:"Fermented cabbage", sweetPotatoes:"Roasted sweet potatoes",
+  salmonRaw:"Salmon fillet", pickledCabbage:"Pickled cabbage", sweetPotatoes:"Roasted sweet potatoes",
   potatoCarrot:"Roasted potatoes & carrots", veggiesMix:"Roasted mixed veg", beetrootDill:"Beetroot & dill",
   edamame:"Edamame mix", carrot:"Shredded carrot", chickenMarinade:"Chicken marinade juice"
 };
